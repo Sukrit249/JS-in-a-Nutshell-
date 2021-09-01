@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="functionOne.js"></script>
+</head>
+<body>
+    <!-- Rechnen: Addition, Subtraktion, Division, Modulo  -->
+    <div class="calculator">
+        <h2>Two number Calculator</h2>
+        <form class="M-1">
+            First Number : <input type="text" id="firstNumber"/><br>
+            Second Number : <input type="text" id="secondNumber"/><br>
+            <input type="button" onclick="MathAdd()" value="Add"/>
+            <input type="button" onclick="MathSub()" value="Subtract"/>
+            <br>
+            <p></p>
+                <input type="button" onclick="MathMult()" value="Multiply"/>
+                <input type="button" onclick="MathDiv()" value="Divide"/>
+            <div>
+                <p></p>
+                <input type="button" onclick="MathModulo()" value="Remainder"/>
+                <p></p>
+                
+            </div>
+        </form>
+            <p>You'r Result is : 
+        <br>
+                <span id="result"> </span>
+            </p>
+    </div>
+    <hr>
+    <!-- for loop -->
+    <div>
+        <h2 class="for-title">Javascript for Loop 1</h2>
+        <form class="Main-test">
+            <strong>please don't put large number on the whitefield, it may crash you'r PC!</strong> <br>
+            <div class="code-1">
+                <br> let text = "" 
+            <br>
+            <br>
+            &nbsp;&nbsp;for (let i = 0; i <= 
+                <input type="text" id="tumberTwo" class="enterNumber" size="1">
+                ; i++) 
+                {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;text += 'The ' + i + ' line | ';<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;} <br><br>
+                <input type="button" onclick="Unlimit()" value="ENTER">
+            </div>
+        </form>
+        <p id="tumbersTwo"></p>
+    </div>
+    <hr>
+    <div>
+        <h2 class="for-title">Javascript for Loop 2</h2>
+        <form class="Main-test">
+            <div class="code-2">
+                <p> On this script we put a break, so it will stop on certain output lines.</p>
+                    let text = "" 
+                <br>
+                <br>
+                &nbsp;&nbsp;for (let i = 0; i <= 
+                <input type="text" id="Number" class="enterNumber" size="1"> 
+                ; i++) 
+                {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;if (i === 1337) { break; }<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;text += 'The ' + i + ' line | ';<br>
+            } <br><br>
+                <input type="button" onclick="getNumber()" value="ENTER">
+            </div>
+        </form>
+        <!-- Here is the output from js example 2 -->
+        <p id="Numbers"></p>
+    </div>
+    <hr>
+
+    <!--Argument-->
+    <div>
+        <h2>Javascript Argument example</h2>
+        <br>
+        <p>function maxnum(){ <br>
+            &nbsp;&nbsp;let max = -Infinity; <br>
+            &nbsp;&nbsp;for(let i = 0; i < arguments.length; i++) { <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;if (arguments[i] > max ) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;max = arguments[i];<br>
+                    &nbsp;&nbsp;} <br>
+            } <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;return max; <br>} <br></p>
+            <br>
+            <p>This Function search for the Biggest Argument number</p>
+            <p>The max number from |
+                 6549865, 65871098, 984456, 6546546, 843568, 
+                84618, 465231354, 1684465, 31846654, 1686845435, 48468641, 6456548. </p>
+        
+        <p id="ARG"></p>
+        <script>
+            document.getElementById("ARG").innerHTML = maxnum(6549865,65871098,984456,6546546,843568,84618,465231354,1684465,31846654,1686845435,48468641,6456548,64,568,6,516,49,846,213,);
+        </script>
+    </div>
+    <hr>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="testingFunction.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h2 class="for-title">Javascript for Loop 1</h2>
+        <form class="Main-test">
+            <strong>please don't put too large number on the Textfield, it may crash you'r PC!</strong>
+            <br>
+            <div class="code-1">
+                <br>
+                <p>let text = "" <br> <br> for (let i = 0; i <= <input type="text" id="tumberTwo" class="enterNumber" size="1"> ; i++){ 
+                <br> 
+                text += 'The ' + i + ' line | '; }</p>
+                <input type="button" onclick="Unlimit()" value="ENTER">
+            </div>
+        </form>
+        <p id="tumbersTwo"></p>
+    </div>
+        <br>   
+    <div>
+        <h2 class="for-title">Javascript for Loop 2</h2>
+        <form class="Main-test">
+            <div class="code-2">
+            <p> On this script we put a break, so it will stop on certain output lines.</p>
+                <div>
+                    <p>let text = "" <br><br> for (let i = 0; i <= <input type="text" id="Number" class="enterNumber" size="1"> ; i++) {
+                    <br>
+                    if (i === 1337) { break; } <br> text += 'The ' + i + ' line | ';}</p> 
+                </div>
+                <input type="button" onclick="getNumber()" value="ENTER">
+            </div>
+        </form>
+        <!-- Here is the output from js example 2 -->
+        <p id="Numbers"></p>
+    </div>
+    <br> 
+    <hr>
+    <div class=>
+        <form class="M-1">
+            First Number : <input type="text" id="firstNumber"/><br>
+            Second Number : <input type="text" id="secondNumber"/><br>
+            <p>Modulo</p>
+                <input type="button" onclick="Remainders()" value="Remainder of the first Number"/>
+                <input type="reset" value="RESET">
+            <p></p>  
+            </div>
+        </form>
+        <p>You'r Result is : 
+        <br>
+            <span id="result"> </span>
+        </p>
+    </div>
+    <hr>
+    <h1>Pause</h1>
+    
+</body>
+</html>
