@@ -25,6 +25,7 @@
                 <p></p>
                 <input type="button" onclick="MathModulo()" value="Remainder"/>
                 <p></p>
+<<<<<<< HEAD
             </div>
         </form>
             <p>You'r Result is : 
@@ -48,6 +49,34 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;} <br><br>
                     <input type="button" onclick="Unlimit()" value="ENTER">
                 </div>
+=======
+                
+            </div>
+        </form>
+            <p>You'r Result is : 
+        <br>
+                <span id="result"> </span>
+            </p>
+    </div>
+    <hr>
+    <!-- for loop -->
+    <div>
+        <h2 class="for-title">Javascript for Loop 1</h2>
+        <form class="Main-test">
+            <strong>please don't put large number on the whitefield, it may crash you'r PC!</strong> <br>
+            <div class="code-1">
+                <br> let text = "" 
+            <br>
+            <br>
+            &nbsp;&nbsp;for (let i = 0; i <= 
+                <input type="text" id="tumberTwo" class="enterNumber" size="1">
+                ; i++) 
+                {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;text += 'The ' + i + ' line | ';<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;} <br><br>
+                <input type="button" onclick="Unlimit()" value="ENTER">
+            </div>
+>>>>>>> main
         </form>
         <p id="tumbersTwo"></p>
     </div>
@@ -64,8 +93,13 @@
                 <input type="text" id="Number" class="enterNumber" size="1"> 
                 ; i++) 
                 {<br>
+<<<<<<< HEAD
                 &nbsp;&nbsp;&nbsp;&nbsp;if (i === 1337) { break; }<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;text += 'The ' + i + ' line | ';<br>
+=======
+                    &nbsp;&nbsp;&nbsp;&nbsp;if (i === 1337) { break; }<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;text += 'The ' + i + ' line | ';<br>
+>>>>>>> main
             } <br><br>
                 <input type="button" onclick="getNumber()" value="ENTER">
             </div>
@@ -74,11 +108,16 @@
         <p id="Numbers"></p>
     </div>
     <hr>
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
     <!--Argument-->
     <div>
         <h2>Javascript Argument example</h2>
         <br>
         <p>function maxnum(){ <br>
+<<<<<<< HEAD
         &nbsp;&nbsp;let max = -Infinity; <br>
         &nbsp;&nbsp;for(let i = 0; i < arguments.length; i++) { <br>
         &nbsp;&nbsp;&nbsp;&nbsp;if (arguments[i] > max ) { <br>
@@ -92,6 +131,21 @@
         6549865, 65871098, 984456, 6546546, 843568, 
         84618, 465231354, 1684465, 31846654, 1686845435, 48468641, 6456548. 
         </p>
+=======
+            &nbsp;&nbsp;let max = -Infinity; <br>
+            &nbsp;&nbsp;for(let i = 0; i < arguments.length; i++) { <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;if (arguments[i] > max ) { <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;max = arguments[i];<br>
+                    &nbsp;&nbsp;} <br>
+            } <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;return max; <br>} <br></p>
+            <br>
+            <p>This Function search for the Biggest Argument number</p>
+            <p>The max number from |
+                 6549865, 65871098, 984456, 6546546, 843568, 
+                84618, 465231354, 1684465, 31846654, 1686845435, 48468641, 6456548. </p>
+        
+>>>>>>> main
         <p id="ARG"></p>
         <script>
             document.getElementById("ARG").innerHTML = maxnum(6549865,65871098,984456,6546546,843568,84618,465231354,1684465,31846654,1686845435,48468641,6456548,64,568,6,516,49,846,213,);
