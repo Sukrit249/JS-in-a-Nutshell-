@@ -15,7 +15,7 @@
         <a href="/projects/js_nutshell/pages/topic.D-elif.php"><button class="btn btn-topic">If -Else If- While Elif</button></a>
         <a href="/projects/js_nutshell/pages/topic.E-efrat.php"><button class="btn btn-topic">While Loop</button></a>
         <a href="/projects/js_nutshell/pages/topic.F-ksenia.php"><button class="btn btn-topic">Do-While Loop</button></a>
-        <a href="/projects/js_nutshell/pages/topic--Sukrit.php"><button class="btn btn-topic">Calculator</button></a>
+        <a href="/projects/js_nutshell/pages/topic--Sukrit.php"><button class="btn btn-topic">Operator</button></a>
         <a href="/projects/js_nutshell/pages/topic.G-carolina.php"><button class="btn btn-topic">For Loop</button></a>
         <a href="/projects/js_nutshell/pages/topic.H-marc.php"><button class="btn btn-topic">All About Arrays</button></a>
         <a href="/projects/js_nutshell/pages/topic.I-urs.php"><button class="btn btn-topic">Date and Time</button></a>
